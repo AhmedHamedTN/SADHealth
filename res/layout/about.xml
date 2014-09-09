@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Application"
+                android:textColor="#1E90FF" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                style="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Legal Notices"
+                android:onClick="showLegalNotice" />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Change Log"
+                android:onClick="showRecentChanges" />
+            
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Provider of Data"
+                android:textColor="#1E90FF" />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="OpenWeatherMap" />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Google Play Services" />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Google Location Services" />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Google Activity Services" />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="WEKA Classifier" />
+            
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Custom Libraries"
+                android:textColor="#1E90FF" />
+            
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="aChartEngine" />
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Inscription" />
+			
+			<TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Developer"
+                android:textColor="#1E90FF" />
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Kiril Tzvetanov Goguev" />
+			
+			<TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Project Leaders"
+                android:textColor="#1E90FF" />
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Edith Ngai" />
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Liam McNamara" />
+			
+			<TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Special Thanks"
+                android:textColor="#1E90FF" />
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Christine Gogev" />
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Danai Spilitopoulou" />
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dobrin Gueorguiev" />	
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Kamyar Niroumand" />
+			
+			
+			
+					
+			
+        </LinearLayout>
+    </ScrollView>    
+
+
+</LinearLayout>

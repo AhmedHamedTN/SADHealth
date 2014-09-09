@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SAD-Seasonal Affective Disorder"
+                android:textColor="#1E90FF" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SAD or the winter blues is a issue many in the population face. The seriousness of the disorder varies amongst everyone. However the following are symptoms which can occur: 
+                
+                
+                "
+                style="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Decreased Energy &amp; Activity Levels
+                
+Disturbed Sleeping Patterns
+
+Diminished Appetite* 
+
+Lack of Social Interactions
+
+
+" />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="If left untreated SAD can cause harm to an individual due to their developing depressive mood. An individual with a depressive mood may not care for themselves or thier health which leads to complications.
+                
+                "
+                />
+            
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Diagnosis"
+                android:textColor="#1E90FF" />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="In order for an individual to be diagnosed with SAD, one must visit thier doctor whom will take the appropriate measures and recommend treatment. However in the intrest of time and money some individuals prefer self diagnosis and self treatment.
+                
+                " />
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="The root causes of SAD in individuals is unknown but several studies have linked the amount of light one is exposed to during the winter seasons. The hypothesis of researchers of this app is that if one gets enough light and keeps thier motivation up, the depressive effects of SAD may be minimized.                
+                
+                " />
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="This app, SADHealth does not diagnose wether an individual does have SAD due to the legally binding nature of giving medical advice. However this app does serve to help an individual become aware of the symptoms of SAD.
+                 
+                 " />
+            
+            
+            <TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="You will notice several graphs displayed on your personal graphs and community graph tabs. These graphs depending on the section show you the day-to-day, week-to-week, and all time progression for the following symptoms: Activity, Light, Mood, Sleep, Energy, Socialbility for you only or for you and the community.
+                  
+                  " />
+            
+            <TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatments"
+                android:textColor="#1E90FF" />
+            
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Current treatments seem to suggest supplementing an artificial light which is rated for 10,000 Lux (same as a bright day outside) and being outside during the morning. However,  the researchers behind SADHealth believe that one must see the effects of the treatment to be motivated enough to continue with it.
+                Using the graphs, an individual can note what thier progression is and see what the community is doing as well, comparision may help some be motivated enough to continue with thier own version of treatment (disregarding anti-depressant pills and supplements).
+                
+                
+                " />
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Most of the data in the graph's are collected periodically using the sensors in the smartphone. However a Questionnaire is to be completed once a day around noon (12:00). In order for SADHealth to provide the individual with the best mood,sleep,energy and socialbity measures.
+                
+                " />
+			
+			<TextView
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Data disclaimer"
+                android:textColor="#1E90FF" />
+			
+			<TextView
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Any data collected by this application is seen only by the SADHealth group at Uppsala University. None of the data is sold to third person parties.
+                
+                *Can not monitor eating habits yet." />
+			
+			
+					
+			
+        </LinearLayout>
+    </ScrollView>    
+
+
+</LinearLayout>
+

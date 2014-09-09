@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:weightSum="10" 
+    android:baselineAligned="false" android:orientation="horizontal">
+    <Button android:text="Exit" android:layout_width="fill_parent"
+        android:layout_weight="5" android:layout_height="wrap_content"
+        android:id="@+id/Exit_Btn" android:layout_gravity="left" android:onClick="exitApp"></Button>
+    <Button android:text="Save" android:layout_width="fill_parent"
+        android:layout_weight="5" android:layout_height="wrap_content"
+        android:id="@+id/Save_Btn" android:onClick="nextScreen"></Button>
+</LinearLayout>

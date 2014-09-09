@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Success!, thank you for allowing SADHealth to access your account information. Please continue onto setting up the rest of this account. Please press back when finished on the next screen." 
+        android:layout_weight="80"/>
+    
+    <!-- <LinearLayout
+        android:id="@+id/Setup_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        
+        android:weightSum="100"
+         >
+        
+
+       <Button
+            android:id="@+id/Exit_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/SetupAct_screen1"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Exit"
+            android:onClick="exitApp" />
+
+        <Button
+            android:id="@+id/Continue_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Exit_Btn"
+            android:layout_alignBottom="@+id/Exit_Btn"
+            android:layout_alignRight="@+id/SetupAct_screen1"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:text="Continue"
+            android:onClick="nextScreen" />
+        </LinearLayout>  -->
+
+</LinearLayout>

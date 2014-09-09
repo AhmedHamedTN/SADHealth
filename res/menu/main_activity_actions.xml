@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+         
+    <!-- Upload -->
+     <item android:id="@+id/action_upload"
+          android:icon="@drawable/file_upload"
+          android:showAsAction="always" />
+     <!-- Settings -->
+    <item android:id="@+id/action_settings"
+          android:icon="@drawable/settings"
+          android:showAsAction="always"/>
+     <item
+        android:id="@+id/a_More"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="always"
+        android:title="More">
+        <menu>
+            
+            <!-- Tutorial -->
+            <item
+                android:id="@+id/action_tutorial"
+                android:icon="@drawable/ic_action_help"
+                android:showAsAction="never"
+                android:title="Launch Tutorial"/>
+            
+            <!-- About SadHealth -->
+            <item
+                android:id="@+id/action_aboutSADHealth"
+                android:icon="@drawable/ic_action_help"
+                android:showAsAction="never"
+                android:title="About SADhealth"/>
+
+            <!-- About SAD -->
+            <item
+                android:id="@+id/action_aboutSAD"
+                android:icon="@drawable/ic_action_help"
+                android:showAsAction="never"
+                android:title="About SAD"/>
+
+            <!-- Exit -->
+            <item
+                android:id="@+id/action_exit"
+                android:icon="@drawable/exit"
+                android:showAsAction="never"
+                android:title="exit"/>
+        </menu>
+    </item>
+</menu>

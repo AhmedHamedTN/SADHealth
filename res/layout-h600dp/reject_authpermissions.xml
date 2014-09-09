@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warning you have choosen not to grant this app the required permission!\n\n The app requested the permission in order to use the built in android account system.\n\n Currently it is only needed to read the email and your username from Google, it does not grant permission to anything else.\n\n Please click the continue button below to retry the registration process. Otherwise you can click Exit to close the app." 
+        android:layout_weight="80"/>
+    
+    <LinearLayout
+        android:id="@+id/Setup_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        
+        android:weightSum="100"
+         >
+        
+
+        <Button
+            android:id="@+id/Exit_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/SetupAct_screen1"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Exit"
+            android:onClick="exitApp" />
+
+        <Button
+            android:id="@+id/Continue_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Exit_Btn"
+            android:layout_alignBottom="@+id/Exit_Btn"
+            android:layout_alignRight="@+id/SetupAct_screen1"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:text="Continue"
+            android:onClick="nextScreen" />
+        </LinearLayout>
+
+</LinearLayout>

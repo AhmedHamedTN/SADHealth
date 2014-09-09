@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+            android:title="Opt-ins">
+            
+            <CheckBoxPreference
+                android:key="BootUp"
+                android:title="SadHealth @ Boot"
+                android:summary="Enable SadHealth to start on boot of your phone."
+                android:defaultValue="true" /> 
+
+         <CheckBoxPreference
+                android:key="QuestionareOptin"
+                android:title="Opt-in Questionnare"
+                android:summary="Enable/Disable the Questionnare"
+                android:defaultValue="true" /> 
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="Data Collection">
+
+        <CheckBoxPreference
+                android:key="Light_DC"
+                android:title="Light"
+                android:summary="Enables collection of Light(Lux) values from the phone sensor."
+                android:defaultValue="true" />
+        
+        <CheckBoxPreference
+                android:key="Accelerometer_DC"
+                android:title="Accelerometer"
+                android:summary="Enables collection of acceleromter values from the phone sensor."
+                android:defaultValue="true" />
+        
+        <CheckBoxPreference
+                android:key="Location_DC"
+                android:title="Location"
+                android:summary="Enables collection of Location from the phone sensor."
+                android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="Data Upload">
+
+        	<ListPreference 
+            android:key="Data_UploadConfig"
+            android:title="Upload Method"
+            android:summary="Define how upload of data will be done"
+            android:defaultValue="0" 
+            android:entries="@array/settings_NetworkUploadArray"
+            android:entryValues="@array/settings_NetworkUploadArrayValues"
+        />  
+
+    </PreferenceCategory>
+    
+        <PreferenceCategory
+            android:title="Diagnostics">
+
+        	
+         <CheckBoxPreference
+                android:key="DiagnosticsShow"
+                android:title="Diagnostics"
+                android:summary="Enable/Disable the showing of diagnostics on the main screen."
+                android:defaultValue="false" /> 
+
+    </PreferenceCategory>
+    
+   
+    
+</PreferenceScreen>

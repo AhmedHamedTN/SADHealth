@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:id="@+id/act_setup"
+    tools:context=".SetupActivity" >
+
+    <TextView
+        android:id="@+id/SetupAct_screen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to SADHealth!\n This is a one time setup consiting of three phases.\n 1.Selecting a Google account to register this application with \n 2. Granting the application access to use the basic information from your selected google account. \n 3.  Finally setting up the access controls to your data.\n 4. Once you are satisfied with your settings simply press the back button on the phone to use the app. \n If you are ready please click on the continue button otherwise exit will close this app." 
+        android:layout_weight="95"/>
+
+    <LinearLayout
+        android:id="@+id/Setup_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+         >
+        
+
+        <Button
+            android:id="@+id/Exit_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/SetupAct_screen1"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Exit"
+            android:onClick="exitApp" />
+
+        <Button
+            android:id="@+id/Continue_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Exit_Btn"
+            android:layout_alignBottom="@+id/Exit_Btn"
+            android:layout_alignRight="@+id/SetupAct_screen1"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:text="Continue"
+            android:onClick="nextScreen" />
+
+    </LinearLayout>
+
+</LinearLayout>

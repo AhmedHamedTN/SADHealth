@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">SADHealth</string>
+    <string name="title_section1">Personal Stats</string>
+    <string name="title_section2">Dashboard</string>
+    <string name="title_section3">Personal Graphs</string>
+    <string name="title_section4">Community Graphs</string>
+    <string name="menu_settings" translatable="false">Settings</string>
+    <string name="title_activity_map" translatable="false">Map</string>
+    <string name="title_activity_graph" translatable="false">Graph</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_upload" translatable="false">Upload to Server</string>
+    <string name="title_activity_notification" translatable="false">NotificationActivity</string>
+    <string name="title_activity_questionnaire" translatable="false">SAD Questionnaire</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_auth" translatable="false">AuthActivity</string>
+    <string name="reg_dialog_selectionmessage" translatable="false">Select account:</string>
+    <string name="reg_dialog_instructions" translatable="false">Welcome!, We have detected that there is no account associated with  SADHealth. Please select a Google account that you would like to register and click GO when finished.</string>
+    <string name="status" translatable="false">Status:</string>
+    <string name="title_activity_notification" translatable="false">NotificationActivity</string>
+    <string name="title_activity_graph" translatable="false">GraphActivity</string>
+    <string name="dismissed_message" translatable="false">The last showcaseView was dismissed!</string>
+    <string name="showcase_tutorial_title" translatable="false">Tutorial</string>
+    <string name="showcase_tutorial_message" translatable="false">Welcome to SADHealth. These screens showcase each function in the system. Please take a moment to look through &amp; interact with the various features.  This app is used to collect and show users information about thier lifestyle in hopes of minimzing the effects of the winter blues/Seasonal affective Disorder. It is a current work in progress.</string>
+    <string name="showcase_tutorialCont_title" translatable="false">How to use: SADHealth</string>
+    <string name="showcase_tutorialCont2_title" translatable="false">Using: SADHealth</string>
+    <string name="showcase_tutorialCont_message" translatable="false">The app periodically collects information about how much light you\'re exposed to, what your mood is and how much activity(exercise) you have been doing. The main purpose of the app is to monitor this information and provide you with an early warning/reconciliation system by presenting the information on screen in an informative way. You can view your own personal graphs as well as those of the community and your friends simply by navigating to the correct screen.  </string>
+    <string name="showcase_tutorialCont2_message" translatable="false">Disclaimer: This app can not tell you if you have SAD or will have it due to legal issues, however the information presented to you should allow you to be mindful of SAD\'s effects. Select About SAD in the overflow menu to learn more about it. </string>
+    <string name="showcase_user_title" translatable="false">Connected User</string>
+    <string name="showcase_user_message" translatable="false">This is the user who is currently logged in &amp; and registered to the application. You may change this user by going to the settings menu and clicking on "change user".</string>
+    <string name="showcase_uploadBtn_title" translatable="false">Upload Button</string>
+    <string name="showcase_uploadBtn_message" translatable="false">Press this button to upload to the private server at Uppsala University manually. All data is anonymized. The app uploads automatically every 3 hours. </string>
+    <string name="showcase_refreshBtn_title" translatable="false">Refresh Button</string>
+    <string name="showcase_refreshBtn_message" translatable="false">This icon represents the refresh function. Pressing the button now allows you to see the animation when the app refreshes. The app refreshes automatically every 3 hours, on screen unlock and when you go back to the main screen.</string>
+    <string name="showcase_settingsBtn_title" translatable="false">Options Button</string>
+    <string name="showcase_settingsBtn_message" translatable="false">Press this button to open the options menu. Here you can change user settings, register another user, and show the tutorial again.</string>
+    <string name="showcase_exitBtn_title" translatable="false">Exit Button</string>
+    <string name="showcase_exitBtn_message" translatable="false">Press this button to display the exit options</string>
+    <string name="showcase_overflowBtn_title" translatable="false">Overflow Button</string>
+    <string name="showcase_overflowBtn_message" translatable="false">Press this button to display more actions such as About SAD (for additonal info regarding SAD) and to exit this app.</string>
+    <string name="showcase_status_title" translatable="false">Status Bar</string>
+    <string name="showcase_status_message" translatable="false">This status bar displays important information and shows errors.</string>
+    <string name="showcase_weather_title" translatable="false">Weather Display</string>
+    <string name="showcase_weather_message" translatable="false">Weather is shown here. Info such as city, tempurature and sunlight stats. The Potential Lux Gain is a value that corresponds to how much light you can get if you go outside. These values will change to the correct ones as more people are using the app.</string>
+    <string name="showcase_lightSrc_title" translatable="false">Light Sources</string>
+    <string name="showcase_lightSrc_message" translatable="false">This displays how much time you spend under a specific light setting (in a period of 24 hrs). The time is calculated from the light sensor in the phone and is updated every time the screen is refreshed.</string>
+    <string name="showcase_dataBtn_title" translatable="false">Data History Button</string>
+    <string name="showcase_dataBtn_message" translatable="false">Click here to display personal information collected using the phones sensors.</string>
+    <string name="showcase_locationBtn_title" translatable="false">Location History Button</string>
+    <string name="showcase_locationBtn_message" translatable="false">Click here to display your location history.</string>
+    <string name="showcase_swipeLeft_title" translatable="false">Swipe to change screens</string>
+    <string name="showcase_swipeLeft_message" translatable="false">Swipe to the left or right to display map, personal statistics and community information (you vs friends/family/others). </string>
+    <string name="showcase_notification_title" translatable="false">Notifications</string>
+    <string name="showcase_notification_message" translatable="false">This app will put important events in the notification bar. Examples include: Activity, Questionnare and Uploading events.</string>
+    <string name="showcase_swipe_title" translatable="false">Swipe/Select tabs to change screens</string>
+    <string name="showcase_swipe_message" translatable="false">You can either swipe left/right anywhere on the screen or select the tabs ontop to navigate to other parts of this app. This app has 4 screens in total. </string>
+    <string name="showcase_swipe2_title" translatable="false">App Screens</string>
+    <string name="showcase_swipe2_message" translatable="false">To the left is a personal stats screen where you can see totals for yourself. The screen behind this tutorial is the dashboard, the main control hub of this app. To the right is a screen called Personal Graphs. All data in this screen is only what has been collected from you. </string>
+    <string name="showcase_swipe3_title" translatable="false">App Screens</string>
+    <string name="showcase_swipe3_message" translatable="false">Finally to the far right is the Community Graphs screen where all the data is from the community.  Please note: That some data may be available after running the app for an extended period of time. If no data is showing the app has not collected enough data or the files required have not yet been downloaded from the server.</string>
+    <string name="title_activity_setup" translatable="false">Setup 1/2</string>
+    <string name="title_activity_registration" translatable="false">Setup 2/2</string>
+    <string name="title_activity_user_settings" translatable="false">Settings</string>
+    <string name="title_activity_about" translatable="false">About</string>
+
+    <string-array name="settings_NetworkUploadArray" translatable="false">
+        <item name="Mobile_Wifi">Mobile Data &amp; Wifi</item>
+        <item name="Wifi_only">Wifi Only</item>
+        <item name="Mobile_only">Mobile Data Only</item>
+    </string-array>
+    <string-array name="settings_NetworkUploadArrayValues" translatable="false">
+        <item name="Mobile_Wifi">0</item>
+        <item name="Wifi_only">1</item>
+        <item name="Mobile_only">2</item>
+    </string-array>
+
+    <string name="version" translatable="false"> Version 1.0.7-Tester</string>
+
+    <string-array name="supportedgraphs_array" translatable="false">
+        <item>Light Graph</item>
+        <item>Activity Graph</item>
+        <item>Light-Source Distribution</item>
+    </string-array>
+
+    <string name="PersonalGraphs_Prompt">Available Graphs:</string>
+
+    <string-array name="PersonalGraphs_Arrays">
+        <item>Light</item>
+        <item>Activity</item>
+        <item>Light Distribution</item>
+        <item>Mood</item>
+        <item>Sleep</item>
+        <item>Energy</item>
+        <item>Social</item>
+    </string-array>
+
+    <string name="PersonalGraphsLength_Prompt">Granularity:</string>
+
+    <string-array name="PersonalGraphsLength_Arrays">
+        <item>Yesterday</item>
+        <item>Today</item>
+        <item>Last Week</item>
+        <item>This Week</item>
+        <item>Last Month</item>
+        <item>This Month</item>
+        <item>All Time</item>
+    </string-array>
+
+    <!-- This is for the change log -->
+    <string name="title_changelog">Change log</string>
+    <string name="changelog_close">Close</string>
+    <string name="title_activity_about_sad">AboutSAD</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

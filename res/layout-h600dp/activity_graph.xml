@@ -1,0 +1,196 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/GraphScreenLayout"
+  >
+
+   <LinearLayout
+       android:id="@+id/GraphArea"
+       android:layout_width="fill_parent"
+       android:layout_height="300dp"
+       android:layout_alignParentTop="true"
+       android:orientation="vertical" >
+
+   <LinearLayout
+       android:id="@+id/Graph"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="29.25"
+       android:orientation="horizontal" >
+
+	</LinearLayout>
+	
+
+    <!-- 3rd -->
+
+	<!--  <LinearLayout
+	    android:id="@+id/UnlockLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="40dp"
+	    android:layout_weight="1" >
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="No. of unlocks :"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <TextView
+	        android:id="@+id/unlockView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="30dp"
+	        android:textAppearance="?android:attr/textAppearanceLarge" >
+	    </TextView>
+	     
+
+	</LinearLayout>
+	
+	    <TextView
+	        android:id="@+id/DataViewTime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="40dp"
+	        android:text="Viewing: Latest Data"
+	        android:textAppearance="?android:attr/textAppearanceMedium" >
+	    </TextView>    -->
+  </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="Available Graphs "
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+       <Button
+           android:id="@+id/shareBtn"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Share" />
+
+   </LinearLayout>
+   
+	<!--  <ScrollView
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    android:layout_weight="1" >
+
+    <RadioGroup
+        android:id="@+id/Graphchoices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/LightGraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Light Graph"
+             />
+
+        <RadioButton
+            android:id="@+id/ActivityGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity Graph" />
+
+        <RadioButton
+            android:id="@+id/LightDistribution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light-Distribution graph"
+             />
+        
+        <RadioButton
+            android:id="@+id/MoodGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mood graph"
+             />
+        <RadioButton
+            android:id="@+id/SleepGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sleep graph"
+             />
+        <RadioButton
+            android:id="@+id/EnergyGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energy graph"
+             />
+        <RadioButton
+            android:id="@+id/SocialGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social graph"
+             />
+        
+        
+
+        
+    </RadioGroup>
+
+</ScrollView>-->
+
+<Spinner
+        android:id="@+id/PGraphs_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/PersonalGraphs_Arrays"
+        android:prompt="@string/PersonalGraphs_Prompt" />
+
+  <TextView
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:text="Granularity:"
+   	        android:textAppearance="?android:attr/textAppearanceMedium" />
+  
+<Spinner
+        android:id="@+id/PGraphsGranularity_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/PersonalGraphsLength_Arrays"
+        android:prompt="@string/PersonalGraphsLength_Prompt" />
+   
+ <!--   <LinearLayout
+    android:paddingTop="5dip"
+    android:id="@+id/MenuButtons"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+
+    <Button
+      android:id="@+id/OlderData"
+      android:layout_width="0dip"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:text="Older Data"
+      android:onClick="getOlderData"
+      
+      />
+    
+    <Button
+      android:id="@+id/LatestData"
+      android:layout_width="0dip"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:text="Latest Data"
+      android:onClick="getLatestData"
+      />
+  </LinearLayout>-->
+
+</LinearLayout>
